@@ -46,7 +46,7 @@ async function createDefaultAdmin() {
 
 // CORS — autorise le frontend
 app.use(cors({
-    origin: '*',
+    origin: 'https://mon-front-i8ad.onrender.com',
     methods: ['GET', 'POST', 'PUT', 'DELETE', 'OPTIONS'],
     allowedHeaders: ['Content-Type', 'Authorization']
 }));
